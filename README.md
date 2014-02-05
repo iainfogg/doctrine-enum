@@ -7,10 +7,10 @@ Example
 -
 Register DBAL extension:
 ```php
-use Shmaltorhbooks\Doctrine\DBAL\Types\EnumType;
+use \Doctrine\DBAL\Types\Type;
 // ...
 
-Type::addType('enum', 'DoctrineExtensions\DBAL\Types\EnumType');
+Type::addType('enum', 'Shmaltorhbooks\Doctrine\DBAL\Types\EnumType');
 //...
 // create conn options and doctrine config here
 $em = EntityManager::create($connectionOptions, $config);
