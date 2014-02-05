@@ -1,7 +1,14 @@
 {
     "name": "shmaltorhbooks/doctrine-enum",
+    "description": "Support of 'enum' type for Doctrine2",
     "minimum-stability": "stable",
     "license": "proprietary",
+    "type": "library",
+    "keywords": [
+        "dbal",
+        "doctrine",
+        "doctrine2"
+    ],
     "authors": [
         {
             "name": "shmaltorhbooks",
@@ -10,7 +17,11 @@
     ],
     "autoload": {
         "psr-0": {
-            "Shmaltorhbooks": "."
+            "Shmaltorhbooks": "lib/"
         }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/orm": "2.4.*"
     }
 }
