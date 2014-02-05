@@ -1,0 +1,11 @@
+{
+    "name": "shmaltorhbooks/doctrine-enum",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "shmaltorhbooks",
+            "email": "shmaltorhbooks@gmail.com"
+        }
+    ]
+}
