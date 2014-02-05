@@ -7,5 +7,10 @@
             "name": "shmaltorhbooks",
             "email": "shmaltorhbooks@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Shmaltorhbooks": "."
+        }
+    }
 }
