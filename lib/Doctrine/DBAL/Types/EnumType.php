@@ -2,8 +2,6 @@
 
 namespace Shmaltorhbooks\Doctrine\DBAL\Types;
 
-namespace Hub\BaseBundle\DependencyInjection\Doctrine\Extensions\DBAL;
-
 use Doctrine\DBAL\Platforms\AbstractPlatform,
     Doctrine\DBAL\Types\Type;
 
