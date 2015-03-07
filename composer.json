@@ -16,8 +16,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Shmaltorhbooks": "lib/"
+        "psr-4": {
+            "Shmaltorhbooks\\": "lib/"
         }
     },
     "require": {
